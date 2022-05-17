@@ -6,17 +6,18 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          BORANA CECI 
+          Hello 👋🏻 
         </h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>
-          YOUR COMPUTER SCIENTIST!
-        </h2>
+        <img src={logo} className="App-logo" alt="logo"/>
+        <h3>
+          I'm
           <br/>
+          Borana Ceci
+          <br/>
+          YOUR COMPUTER SCIENTIST!
+        </h3>
         <p>
-
           Click the link below for more 👇🏻
-
         </p>
         <a
           className="App-link"
