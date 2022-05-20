@@ -1,11 +1,11 @@
+import './App.css';
 
 const AboutMe =() => {
     return (
 
-        <div className="aboutme">
-            <div className="headline"> About Me </div>
-
-            Testing
+        <div>
+            <div> About Me </div>
+        
 
 
         </div>

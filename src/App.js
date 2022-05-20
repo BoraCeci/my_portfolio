@@ -1,35 +1,34 @@
-import logo from './BoraC.jpg';
 import './App.css';
+import Home from './components/Home';
+import React from 'react';
+import {BrowserRouter as Router,Routes, Route} from 'react-router-dom';
+import NavigationBar from './components/NavigationBar';
+import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-          Hello 👋🏻 
-        </h1>
-        <img src={logo} className="App-logo" alt="logo"/>
-        <h3>
-          I'm
-          <br/>
-          Borana Ceci
-          <br/>
-          YOUR COMPUTER SCIENTIST!
-        </h3>
-        <p>
-          Click the link below for more 👇🏻
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/BoraCeci"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click Here
-        </a>
-      </header>
-    </div>
+  return(
+
+    <Router>
+      <NavigationBar/>
+
+      <Routes>
+
+      <Route path="/" element={<Home/>}/>
+      <Route path="/about" element={<AboutMe/>}/>
+      <Route path="/projects" element={<Projects/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+
+
+      </Routes>
+
+    </Router>
+
+
+
   );
+  
 }
 
 export default App;

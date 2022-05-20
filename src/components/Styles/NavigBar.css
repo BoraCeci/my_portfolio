@@ -1,0 +1,16 @@
+navigBar {
+    
+    display:flex;
+    align-items: center;
+    min-height: 6vh;
+    background-color: grey;
+
+}
+
+.navLink{
+    margin: 10px;
+    color: white;
+
+
+
+}
