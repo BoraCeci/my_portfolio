@@ -1,8 +1,10 @@
 import React from "react";
 
-const Projects =() =>{
+function Projects () {
     return(
         <div>
+            <h2> Find below my projects </h2>
+
             <div> Projects And More </div>
         </div>
 

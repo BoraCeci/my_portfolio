@@ -3,6 +3,7 @@ import logo from './BoraC.jpg';
 import './App.css';
 
 
+
 function Home() {
 
     return (
@@ -13,23 +14,14 @@ function Home() {
             </h1>
             <img src={logo} className="App-logo" alt="logo"/>
             <h3>
-              I'm
-              <br/>
               Borana Ceci
               <br/>
-              THE COMPUTER SCIENTIST!
+              YOUR COMPUTER SCIENTIST!
             </h3>
             <p>
-              Click the link below for more 👇🏻
+              Click "About Me" for more!
             </p>
-            <a
-              className="App-link"
-              href="https://github.com/BoraCeci"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here
-            </a>
+          
           </header>
         </div>
       );
