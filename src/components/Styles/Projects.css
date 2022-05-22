@@ -1,0 +1,29 @@
+.project{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    padding-bottom:30%;
+      
+}
+.headline{
+
+    padding: 55px;
+    font-size: 30px;
+    
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.list-item{
+    padding: 50px;
+}
+
+.navLinkp{
+
+    color: lightblue;
+}

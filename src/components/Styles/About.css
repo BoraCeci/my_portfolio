@@ -3,13 +3,12 @@
     background-color: black;
     display: flex;
     justify-content: left;
-    align-items: left;
-    
+    align-items: left;    
 }
 
 .logo{
 
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left:5%;
     margin-bottom: 5%;
     width: 50vh;
@@ -19,7 +18,7 @@
 }
 
 .about-text{
-    margin-top: 8%;
+    margin-top: 15%;
     margin-left: 5%;
     margin-bottom: 5%;
     color: white;

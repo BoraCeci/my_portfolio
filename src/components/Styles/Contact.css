@@ -1,20 +1,37 @@
+
 .contact{
     text-align: center;
     color: white;
     font-size: 25px;
     background-color: black;
     padding-bottom:100%;
-    
 }
+
 .headline{
-    padding: 55px;
+
+    align-content: center;
+    min-width: 100%;
     font-size: 30px;
+   
 }
 
+.about-textc{
+
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 25px;
+    width: 70vh;
+
+}
 .navLinkc{
-    margin: 15px;
+
+    margin-left: 5%;
     color: lightblue;
-
-
-
 }
+  
+
+
+
+

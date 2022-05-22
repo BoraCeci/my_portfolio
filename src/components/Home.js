@@ -19,8 +19,12 @@ function Home() {
               YOUR COMPUTER SCIENTIST!
             </h3>
             <p>
-              Click "About Me" for more!
+              Click <a href="http://localhost:3000/about" className="navLinkh">
+              About
+            </a> for more!
             </p>
+
+            
           
           </header>
         </div>
