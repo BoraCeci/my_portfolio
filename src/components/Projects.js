@@ -2,6 +2,7 @@ import React,{Component} from "react";
 import "./Styles/Projects.css";
 
 const Projects=() =>{
+  
     return(
         <div className="project">
             
