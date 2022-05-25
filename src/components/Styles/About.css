@@ -5,12 +5,32 @@
     justify-content: left;
     align-items: left;    
 }
+.dark{
+
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: row;
+
+}
+.light{
+
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: row;
+  
+}
 
 .logo{
 
-    margin-top: 10%;
+    /* margin-top: 10%;
     margin-left:5%;
-    margin-bottom: 5%;
+    margin-bottom: 5%; */
     width: 50vh;
     height: 60vh;
     border-radius: 160px 100px;
@@ -18,13 +38,37 @@
 }
 
 .about-text{
+    /* margin-top: 15%;
+    margin-left: 5%;
+    margin-bottom: 5%; */
+    color: white;
+    font-size: 25px;
+    width: 90vh;
+}
+
+
+.dark-text{
+
     margin-top: 15%;
     margin-left: 5%;
     margin-bottom: 5%;
     color: white;
     font-size: 25px;
     width: 90vh;
+
 }
+
+.light-text{
+
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: black;
+    font-size: 25px;
+    width: 90vh;
+
+}
+
 .navLinkr{
     margin: 5px;
     color: lightblue;

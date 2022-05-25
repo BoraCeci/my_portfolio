@@ -4,11 +4,13 @@ import './App.css';
 
 
 
-function Home() {
+function Home(props) {
+
+
 
     return (
         <div className="App">
-          <header className="App-header">
+          <header className={props.theme}>
             <h1>
               Hello 👋🏻 
             </h1>

@@ -1,10 +1,10 @@
 import React,{Component} from "react";
 import "./Styles/Projects.css";
 
-const Projects=() =>{
+const Projects=(props) =>{
   
     return(
-        <div className="project">
+        <div className={props.theme}>
             
             <br/>
             <div className="headline">Check Out Some Of  <br/> My Projects  <br/> 👇🏻 </div>

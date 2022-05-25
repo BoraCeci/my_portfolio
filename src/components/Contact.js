@@ -1,11 +1,11 @@
 import "./Styles/Contact.css";
 
 
-function Contact() {
+function Contact(props) {
     return(
       
 
-        <div className="contact">
+        <div className={props.theme}>
 
             <div className="headline"> Wanna Get In Touch? Click Below 👇🏻 </div>
 

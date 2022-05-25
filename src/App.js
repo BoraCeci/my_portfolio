@@ -30,25 +30,24 @@ function App() {
 
   return(
 
-    <Router>
+    <Router> 
       <NavigationBar/>
 
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
       <StyledApp>
-       Mode    
+       Mode 
+       {console.log(theme)}   
         <button onClick={() => themeToggler()}>Light/Dark</button>
       </StyledApp>
       </ThemeProvider>
 
-
-
       <Routes>
 
-      <Route path="/" element={<Home/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/projects" element={<Projects/>}/>
-      <Route path="/contact" element={<Contact/>}/>
+      <Route path="/" element={<Home theme={theme}/>}/>
+      <Route path="/about" element={<About theme={theme}/>}/>
+      <Route path="/projects" element={<Projects theme={theme}/>}/>
+      <Route path="/contact" element={<Contact theme={theme}/>}/>
 
 
       </Routes>
