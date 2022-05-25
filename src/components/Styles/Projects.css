@@ -1,0 +1,42 @@
+.light{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    background-color: white;
+    padding-bottom:30%;
+    display: flex;
+    flex-direction: column;
+      
+}
+.dark{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    padding-bottom:30%;
+    display: flex;
+    flex-direction: column;
+      
+}
+
+.headline{
+
+    padding: 55px;
+    font-size: 30px;
+    
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.list-item{
+    padding: 50px;
+}
+
+.navLinkp{
+
+    color: lightblue;
+}

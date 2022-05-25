@@ -1,25 +1,63 @@
-import logo from './logo.svg';
+import React, { useState } from "react";
 import './App.css';
+import Home from './components/Home';
+//import React from 'react';
+import {BrowserRouter as Router,Routes, Route} from 'react-router-dom';
+import NavigationBar from './components/NavigationBar';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import styled, { ThemeProvider } from "styled-components";
+import { lightTheme, darkTheme, GlobalStyles } from "./themes.js";
+
+//adding new staff for the theme
+
+const StyledApp = styled.div`
+  color: ${(props) => props.theme.fontColor};
+`;
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+  //adding new stuff for theme
+
+  const [theme, setTheme] = useState("light");
+
+  const themeToggler = () => {
+    theme === "light" ? setTheme("dark") : setTheme("light");
+  };
+
+  return(
+
+    <Router> 
+      <NavigationBar/>
+
+      <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+      <GlobalStyles />
+      <StyledApp>
+       Mode 
+       {console.log(theme)}   
+        <button onClick={() => themeToggler()}>Light/Dark</button>
+      </StyledApp>
+      </ThemeProvider>
+
+      <Routes>
+
+      <Route path="/" element={<Home theme={theme}/>}/>
+      <Route path="/about" element={<About theme={theme}/>}/>
+      <Route path="/projects" element={<Projects theme={theme}/>}/>
+      <Route path="/contact" element={<Contact theme={theme}/>}/>
+
+
+      </Routes>
+
+    </Router>
+
+
+
   );
+  
 }
 
 export default App;
