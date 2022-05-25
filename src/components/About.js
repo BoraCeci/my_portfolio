@@ -17,7 +17,7 @@ function About (props) {
              <br/>
              <br/>
 
-             Want to know more? Download my Resume <a href="./Resume1.pdf" className="navLinkr" download>Here! </a> </p>
+             Want to know more? Download my Resume <a href="https://drive.google.com/file/d/1HJmI-H2ZJ64H_ul8q_ef-QXTOeJo3JYo/view" download>Here! </a> </p>
             
         </div>
 
