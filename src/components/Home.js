@@ -21,7 +21,7 @@ function Home(props) {
               YOUR COMPUTER SCIENTIST!
             </h3>
             <p>
-              Click <a href="http://localhost:3000/about" className="navLinkh">
+              Click <a href="https://boraceci.netlify.app/about" className="navLinkh">
               About
             </a> for more!
             </p>

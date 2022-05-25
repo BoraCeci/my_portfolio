@@ -8,7 +8,6 @@ function About (props) {
 
     <div className={props.theme}>
             
-
             <img src={logo} className="logo" alt="logo"/>
 
             <p className={props.theme.concat("-text")}> I am currently working as an Office Manager for more than two years now.

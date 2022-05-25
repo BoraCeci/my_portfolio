@@ -36,7 +36,7 @@ function App() {
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
       <StyledApp>
-       Mode 
+      &emsp;Switch&emsp;
        {console.log(theme)}   
         <button onClick={() => themeToggler()}>Light/Dark</button>
       </StyledApp>

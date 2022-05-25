@@ -3,7 +3,7 @@
     background-color: black;
     display: flex;
     justify-content: left;
-    align-items: left;    
+    align-items: left;  
 }
 .dark{
 
@@ -28,12 +28,12 @@
 
 .logo{
 
-    /* margin-top: 10%;
-    margin-left:5%;
+    margin-top: 5%;
+    /*margin-left:5%;
     margin-bottom: 5%; */
-    width: 50vh;
-    height: 60vh;
-    border-radius: 160px 100px;
+    width: 40vh;
+    height: 50vh;
+    border-radius: 160px 90px;
 
 }
 
@@ -49,9 +49,9 @@
 
 .dark-text{
 
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 20%;
     color: white;
     font-size: 25px;
     width: 90vh;
@@ -60,9 +60,9 @@
 
 .light-text{
 
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 20%;
     color: black;
     font-size: 25px;
     width: 90vh;
@@ -71,5 +71,6 @@
 
 .navLinkr{
     margin: 5px;
-    color: lightblue;
+    color:blue;
+    font-style:italic;
 }
